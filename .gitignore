@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+env/
+*.log
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Grizzly
+.grizzly/
+grafana-sync/dashboards/dev/**
+grafana-sync/dashboards/replicate/**
+
+# Archivos de ejecución
+*.sh~
+
+# Token de seguridad o archivos sensibles (si los guardas como .txt o .env)
+tokens.txt
+*.token
+*.secret
