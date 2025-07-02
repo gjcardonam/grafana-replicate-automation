@@ -28,4 +28,5 @@ grafana-sync/dashboards/replicate/**
 # Token de seguridad o archivos sensibles (si los guardas como .txt o .env)
 tokens.txt
 *.token
-*.secret
+*.secretgrafana-sync/config/dev-context.sh
+grafana-sync/config/replicate-context.sh
